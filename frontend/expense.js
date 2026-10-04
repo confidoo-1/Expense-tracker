@@ -159,7 +159,7 @@ category_filter.addEventListener("change", () => {
   const selected_category = category_filter.value;
 
   const filtered_expenses = all_expenses.filter((expense) => {
-    if (selected_category === "All") {
+    if (selected_category === "all") {
       return true;
     } else {
       return selected_category === expense.category;
