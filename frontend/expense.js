@@ -67,6 +67,8 @@ function createExpenseCard(expense) {
   });
 }
 
+
+
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
   const title = document.getElementById("title").value;
@@ -128,6 +130,8 @@ form.addEventListener("submit", async (e) => {
     submit_button.textContent = "Add Expense";
   }
 });
+
+
 
 let all_expenses = [];
 
